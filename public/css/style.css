@@ -1,0 +1,61 @@
+*{
+    width: 100%;
+    margin: 0px;
+}
+nav{
+    background-color: rgb(207, 211, 207);
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.navitem{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.navhead>h2{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navitem>h2{
+    font-weight:100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.content{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: black;
+
+
+}
+a:hover{
+    color: rgb(120, 250, 217);
+    
+}
+.composecontent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  
+}
+textarea{
+    height: 100px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(81, 124, 243);
+    color: white;
+}
